@@ -169,7 +169,7 @@ int rtw_AcceptAddbaReq = _TRUE;// 0:Reject AP's Add BA req, 1:Accept AP's Add BA
 int rtw_antdiv_cfg = 2; // 0:OFF , 1:ON, 2:decide by Efuse config
 int rtw_antdiv_type = 0 ; //0:decide by efuse  1: for 88EE, 1Tx and 1RxCG are diversity.(2 Ant with SPDT), 2:  for 88EE, 1Tx and 2Rx are diversity.( 2 Ant, Tx and RxCG are both on aux port, RxCS is on main port ), 3: for 88EE, 1Tx and 1RxCG are fixed.(1Ant, Tx and RxCG are both on aux port)
 
-int rtw_switch_usb3 = _FALSE; /* _FALSE: doesn't switch, _TRUE: switch from usb2.0 to usb 3.0 */
+int rtw_switch_usb3 = _TRUE; /* _FALSE: doesn't switch, _TRUE: switch from usb2.0 to usb 3.0 */
 
 #ifdef CONFIG_USB_AUTOSUSPEND
 int rtw_enusbss = 1;//0:disable,1:enable
